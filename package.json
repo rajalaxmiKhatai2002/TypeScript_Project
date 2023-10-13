@@ -1,0 +1,12 @@
+{
+  "name": "typescript_project",
+  "version": "1.0.0",
+  "description": "Certainly! Below is a basic template for a `README.md` file for a TypeScript project. You can customize and expand upon it according to your specific project details.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
