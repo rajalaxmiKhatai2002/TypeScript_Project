@@ -19,11 +19,13 @@
 // const exp:number = 2e3;
 // console.log("bit=" + bit + "\n" + "exponent=" + exp);
 
-var username:string = "john";
-var age:number = 23;
-var msg:string = "hello !"+ username + "you will be" + (age+1) + "next year";//this is actually the old version of js 
-var ms2:string = `hello ! ${username} you will be ${age+1} next year`;//this is the moder js to print the inding statement in string
-console.log(msg);
-console.log(ms2);
+// var username:string = "john";
+// var age:number = 23;
+// var msg:string = "hello !"+ username + "you will be" + (age+1) + "next year";//this is actually the old version of js 
+// var ms2:string = `hello ! ${username} you will be ${age+1} next year`;//this is the moder js to print the inding statement in string
+// console.log(msg);
+// console.log(ms2);
 
+ var x = 10;
+ console.log(x);
  
