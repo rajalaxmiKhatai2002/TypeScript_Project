@@ -13,5 +13,10 @@
     
 // }
 // demofirst()
-var x = 1;
-x = 34;  
+// var x = 1;
+// x = 34;  
+const bit:number = 0b10101;
+const exp:number = 2e3;
+console.log("bit=" + bit + "\n" + "exponent=" + exp);
+
+ 
