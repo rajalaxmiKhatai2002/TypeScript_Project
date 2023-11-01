@@ -43,4 +43,4 @@ if(mobile.match(/\+29\d{10}/)){
 // var age:number|string;
 // age = 10;
 // age = "3242";
-var username:string|null = prompt("enter name");
+var username:string|null = prompt("enter name");//union of types we can manage the user input
