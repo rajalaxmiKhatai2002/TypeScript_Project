@@ -36,3 +36,7 @@ if(mobile.match(/\+29\d{10}/)){
     console.log("invalid number");
     
 }
+ var stock:boolean = true;
+// if(stock==1){   //here one error is shows that in js we can overlap the value of true =1 and false =0 but in typescript we can not overlap. 
+
+//}
