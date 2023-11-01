@@ -26,6 +26,13 @@
 // console.log(msg);
 // console.log(ms2);
 
- var x = 10;
- console.log(x);
- 
+//  var x = 10;
+//  console.log(x);
+var mobile:string = "+29868175367576";
+if(mobile.match(/\+29\d{10}/)){
+    console.log("otp send");
+    
+} else{
+    console.log("invalid number");
+    
+}
