@@ -40,3 +40,7 @@ if(mobile.match(/\+29\d{10}/)){
 // if(stock==1){   //here one error is shows that in js we can overlap the value of true =1 and false =0 but in typescript we can not overlap. 
 
 //}
+// var age:number|string;
+// age = 10;
+// age = "3242";
+var username:string|null = prompt("enter name");
