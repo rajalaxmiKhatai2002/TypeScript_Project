@@ -56,5 +56,11 @@
 // }
 
 // var collection:any[] =[10,"kjfdh",true];
-var collection:any[] = new Array(10,78,89);
-console.log(collection);
+// var collection:any[] = new Array(10,78,89);
+// console.log(collection);
+
+var collection:any[]= [1,"jsfha",true];
+var id = collection[0];
+var Name = collection[1];
+var Stock = collection[2];
+
