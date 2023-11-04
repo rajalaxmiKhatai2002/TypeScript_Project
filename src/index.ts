@@ -45,13 +45,16 @@
 // age = "3242";
 // var username:string|null = prompt("enter name");//union of types we can manage the user input
 // var password:string|null = prompt("enter password");
-var Name:string = "sameer swain";
-var Price:number|undefined;
-if(Price)
-{
-    console.log(`Name=${Name}\nPrice=${Price}`);
-}else{
-    console.log(`Name=${Name}`);
+// var Name:string = "sameer swain";
+// var Price:number|undefined;
+// if(Price)
+// {
+//     console.log(`Name=${Name}\nPrice=${Price}`);
+// }else{
+//     console.log(`Name=${Name}`);
     
-}
+// }
 
+// var collection:any[] =[10,"kjfdh",true];
+var collection:any[] = new Array(10,78,89);
+console.log(collection);
