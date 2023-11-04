@@ -28,20 +28,30 @@
 
 //  var x = 10;
 //  console.log(x);
-var mobile:string = "+29868175367576";
-if(mobile.match(/\+29\d{10}/)){
-    console.log("otp send");
+// var mobile:string = "+29868175367576";
+// if(mobile.match(/\+29\d{10}/)){
+//     console.log("otp send");
     
-} else{
-    console.log("invalid number");
+// } else{
+//     console.log("invalid number");
     
-}
- var stock:boolean = true;
+// }
+//  var stock:boolean = true;
 // if(stock==1){   //here one error is shows that in js we can overlap the value of true =1 and false =0 but in typescript we can not overlap. 
 
 //}
 // var age:number|string;
 // age = 10;
 // age = "3242";
-var username:string|null = prompt("enter name");//union of types we can manage the user input
-var password:string|null = prompt("enter password");
+// var username:string|null = prompt("enter name");//union of types we can manage the user input
+// var password:string|null = prompt("enter password");
+var Name:string = "sameer swain";
+var Price:number|undefined;
+if(Price)
+{
+    console.log(`Name=${Name}\nPrice=${Price}`);
+}else{
+    console.log(`Name=${Name}`);
+    
+}
+
