@@ -66,15 +66,25 @@
 // var[Id,Name,Stock] =collection;  //latest version
 // console.log(`id=${Id}\nname=${Name}\nstock=${Stock}`); //tuple example
 
-var collection:any[]= [1,"jsfha",true,["delhi","hyd",["uiyruyut"]],function(){console.log("array can store munltiple datatype and its a function in array");
-}];
-console.log(collection[1]);
-console.log(collection[3][0]);
-console.log(collection[4]);
-console.log(collection[4]());
-collection[4]();
-console.log(collection[3][2]);
-console.log(collection[3][2][0]);
+// var collection:any[]= [1,"jsfha",true,["delhi","hyd",["uiyruyut"]],function(){console.log("array can store munltiple datatype and its a function in array");
+// }];
+// console.log(collection[1]);
+// console.log(collection[3][0]);
+// console.log(collection[4]);
+// console.log(collection[4]());
+// collection[4]();
+// console.log(collection[3][2]);
+// console.log(collection[3][2][0]);
+
+var catalog:string[] = ["electronics","footware","cusmetics","winter clothes"];
+// for(var property of catalog)//of will display the elements of the array
+for(var property in catalog)
+{
+    // console.log(property); //it will display the elements of an array
+    console.log(property);
+    
+    
+}
 
 
 
