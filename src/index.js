@@ -46,5 +46,12 @@
 // }else{
 //     console.log(`Name=${Name}`);
 // }
-var collection = [10, "kjfdh", true];
-console.log(collection);
+// var collection:any[] =[10,"kjfdh",true];
+// var collection:any[] = new Array(10,78,89);
+// console.log(collection);
+var collection = [1, "jsfha", true];
+// var id = collection[0];
+// var Name = collection[1];      //this is the oldest version 
+// var Stock = collection[2];
+var Id = collection[0], Name = collection[1], Stock = collection[2]; //latest version
+console.log("id=".concat(Id, "\nname=").concat(Name, "\nstock=").concat(Stock));

@@ -60,7 +60,9 @@
 // console.log(collection);
 
 var collection:any[]= [1,"jsfha",true];
-var id = collection[0];
-var Name = collection[1];
-var Stock = collection[2];
+// var id = collection[0];
+// var Name = collection[1];      //this is the oldest version 
+// var Stock = collection[2];
+var[Id,Name,Stock] =collection;  //latest version
+console.log(`id=${Id}\nname=${Name}\nstock=${Stock}`);
 
