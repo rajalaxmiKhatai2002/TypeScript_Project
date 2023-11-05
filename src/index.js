@@ -49,9 +49,17 @@
 // var collection:any[] =[10,"kjfdh",true];
 // var collection:any[] = new Array(10,78,89);
 // console.log(collection);
-var collection = [1, "jsfha", true];
+// var collection:any[]= [1,"jsfha",true];
 // var id = collection[0];
 // var Name = collection[1];      //this is the oldest version 
 // var Stock = collection[2];
-var Id = collection[0], Name = collection[1], Stock = collection[2]; //latest version
-console.log("id=".concat(Id, "\nname=").concat(Name, "\nstock=").concat(Stock));
+// var[Id,Name,Stock] =collection;  //latest version
+// console.log(`id=${Id}\nname=${Name}\nstock=${Stock}`); //tuple example
+var collection = [1, "jsfha", true, ["delhi", "hyd"], function () {
+        console.log("array can store munltiple datatype and its a function in array");
+    }];
+console.log(collection[1]);
+console.log(collection[3][0]);
+console.log(collection[4]);
+console.log(collection[4]());
+collection[4]();
