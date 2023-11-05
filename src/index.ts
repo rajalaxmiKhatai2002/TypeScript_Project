@@ -77,11 +77,12 @@
 // console.log(collection[3][2][0]);
 
 var catalog:string[] = ["electronics","footware","cusmetics","winter clothes"];
+var pro;
 // for(var property of catalog)//of will display the elements of the array
-for(var property in catalog)
+for( pro in catalog)//it will display the index number of each element in the array
 {
     // console.log(property); //it will display the elements of an array
-    console.log(property);
+    console.log(pro);
     
     
 }

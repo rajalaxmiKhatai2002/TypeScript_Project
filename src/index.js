@@ -65,8 +65,9 @@
 // console.log(collection[3][2]);
 // console.log(collection[3][2][0]);
 var catalog = ["electronics", "footware", "cusmetics", "winter clothes"];
+var pro;
 // for(var property of catalog)//of will display the elements of the array
-for (var property in catalog) {
+for (pro in catalog) {
     // console.log(property); //it will display the elements of an array
-    console.log(property);
+    console.log(pro);
 }
