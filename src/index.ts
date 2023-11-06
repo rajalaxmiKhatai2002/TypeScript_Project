@@ -95,5 +95,12 @@
 // }
 // console.log(`Name=${tv.Name}\nPrice=${tv.Price}`);
 
-
+let laptop:{Name:string,Price:number,qlt:4,Total:any} = {
+    Name:"dell",
+    Price:9843682376,
+    qlt:4,
+    Total:function(){
+        return this.Price*this.qlt;
+    }
+}
 

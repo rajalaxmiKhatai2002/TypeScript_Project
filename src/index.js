@@ -73,8 +73,16 @@
 //     console.log(pro);
 //     console.log(`[${pro}]-${catalog[pro]}`);
 // }
-var tv = {
-    Name: "hfgsjfhgsjg",
-    Price: 8364762856
+// let tv:{Name:string,Price:number} = {
+//     Name:"hfgsjfhgsjg",
+//     Price:8364762856
+// }
+// console.log(`Name=${tv.Name}\nPrice=${tv.Price}`);
+var laptop = {
+    Name: "dell",
+    Price: 9843682376,
+    qlt: 4,
+    Total: function () {
+        return this.Price * this.qlt;
+    }
 };
-console.log("Name=".concat(tv.Name, "\nPrice=").concat(tv.Price));
