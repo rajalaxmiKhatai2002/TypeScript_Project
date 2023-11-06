@@ -78,11 +78,23 @@
 //     Price:8364762856
 // }
 // console.log(`Name=${tv.Name}\nPrice=${tv.Price}`);
-var laptop = {
-    Name: "dell",
-    Price: 9843682376,
-    qlt: 4,
-    Total: function () {
-        return this.Price * this.qlt;
-    }
-};
+// let laptop:{Name:string,Price:number,qlt:4,Total:any} = {
+//     Name:"dell",
+//     Price:9843682376,
+//     qlt:4,
+//     Total:function(){
+//         return this.Price*this.qlt;
+//     }
+// }
+// let students:[{"Name":string,"Age":number}] = [{"Name":"john","Age":67}];//it is only applicable for the single line declaration
+// let student:{Name:string,Age:number}[] = [
+//     {"Name":"hdghaf","Age":311},
+//     {"Name":"dhugfye","Age":9287}
+// ];//here the datatype is object type array and the value type is array of obejcts  
+// let data:Map<any,any> = new Map();//here the < is generic type
+// data.set(1,"html is a markup language");
+// data.set("css","is is a style sheet");
+// data.keys();
+// data.values();
+var mfd = new Date("2020-01-23 10:20:32.45");
+console.log("mfd=" + mfd.toLocaleDateString());
