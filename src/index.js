@@ -64,10 +64,17 @@
 // collection[4]();
 // console.log(collection[3][2]);
 // console.log(collection[3][2][0]);
-var catalog = ["electronics", "footware", "cusmetics", "winter clothes"];
-var pro;
-// for(var property of catalog)//of will display the elements of the array
-for (pro in catalog) {
-    // console.log(property); //it will display the elements of an array
-    console.log(pro);
-}
+// var catalog:string[] = ["electronics","footware","cusmetics","winter clothes"];
+// var pro;
+// // for(var property of catalog)//of will display the elements of the array
+// for( pro in catalog)//it will display the index number of each element in the array
+// {
+//     // console.log(property); //it will display the elements of an array
+//     console.log(pro);
+//     console.log(`[${pro}]-${catalog[pro]}`);
+// }
+var tv = {
+    Name: "hfgsjfhgsjg",
+    Price: 8364762856
+};
+console.log("Name=".concat(tv.Name, "\nPrice=").concat(tv.Price));
