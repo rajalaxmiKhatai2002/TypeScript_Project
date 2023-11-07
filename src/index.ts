@@ -113,5 +113,13 @@
 // data.set("css","is is a style sheet");
 // data.keys();
 // data.values();
-let mfd:Date = new Date("2020-01-23 10:20:32.45");
-console.log("mfd="+mfd.toLocaleDateString());
+// let mfd:Date = new Date("2020-01-23 10:20:32.45");
+// console.log("mfd="+mfd.toLocaleDateString());
+let profuct:{Name:string,Price:number} = {
+    Name:"tv",
+    Price:827367236.82973
+};
+for(var property in profuct){
+    console.log(property);
+    
+}
