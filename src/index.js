@@ -106,11 +106,21 @@
 // for(var property in profuct){
 //     console.log(property);
 // }
-function hello(username) {
-    return "hello ! ".concat(username);
+// function hello(username:string):string
+// {
+//     return `hello ! ${username}`;
+// }
+// function welcome(){
+//     console.log("welcome to type script");
+// }
+// console.log(hello("rajalaxmi"));
+// welcome();
+function details(Name, Price) {
+    if (Price) {
+        console.log("Name=".concat(Name, "\nPrice=").concat(Price));
+    }
+    else {
+        console.log("Nmae=".concat(Name));
+    }
 }
-function welcome() {
-    console.log("welcome to type script");
-}
-console.log(hello("rajalaxmi"));
-welcome();
+details("samsung tv", 1243355);

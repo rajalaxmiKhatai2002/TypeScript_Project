@@ -124,13 +124,23 @@
 //     console.log(property);
     
 // }
-function hello(username:string):string
-{
-    return `hello ! ${username}`;
-}
-function welcome(){
-    console.log("welcome to type script");
+// function hello(username:string):string
+// {
+//     return `hello ! ${username}`;
+// }
+// function welcome(){
+//     console.log("welcome to type script");
     
+// }
+// console.log(hello("rajalaxmi"));
+// welcome();
+function details(Name:string,Price?:number):void{
+    if(Price){
+        console.log(`Name=${Name}\nPrice=${Price}`);
+    
+    }else{
+        console.log(`Nmae=${Name}`);
+        
+    }
 }
-console.log(hello("rajalaxmi"));
-welcome();
+details("samsung tv",1243355);
