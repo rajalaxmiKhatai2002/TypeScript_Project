@@ -98,10 +98,19 @@
 // data.values();
 // let mfd:Date = new Date("2020-01-23 10:20:32.45");
 // console.log("mfd="+mfd.toLocaleDateString());
-var profuct = {
-    Name: "tv",
-    Price: 827367236.82973
-};
-for (var property in profuct) {
-    console.log(property);
+// let profuct:{Name:string,Price:number,Productid:number} = {
+//     Name:"tv",
+//     Price:827367236.82973,
+//     Productid:12
+// };
+// for(var property in profuct){
+//     console.log(property);
+// }
+function hello(username) {
+    return "hello ! ".concat(username);
 }
+function welcome() {
+    console.log("welcome to type script");
+}
+console.log(hello("rajalaxmi"));
+welcome();
