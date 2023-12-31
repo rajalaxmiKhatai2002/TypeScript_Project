@@ -134,13 +134,17 @@
 // }
 // console.log(hello("rajalaxmi"));
 // welcome();
-function details(Name:string,Price?:number):void{
-    if(Price){
-        console.log(`Name=${Name}\nPrice=${Price}`);
+// function details(Name:string,Price?:number):void{
+//     if(Price){
+//         console.log(`Name=${Name}\nPrice=${Price}`);
     
-    }else{
-        console.log(`Nmae=${Name}`);
+//     }else{
+//         console.log(`Nmae=${Name}`);
         
-    }
-}
-details("samsung tv",1243355);
+//     }
+// }
+// details("samsung tv",1243355);
+const y =new Year(2024);
+y.push('positivity','joy');
+y.pop('bad memories','toxicity');
+print('happ new year $(y.getyear()}');
